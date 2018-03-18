@@ -1,5 +1,5 @@
 body {
-    background-image: url("gh323.jpg");
+    background-image: url("images/gh323.jpg");
 }
 h1 {
     color: #990000;
@@ -12,23 +12,37 @@ h2 {
 .navigation {
     padding: 15px;
     text-align: center;
+    background-color: rgba(52, 202, 195, 0.5);
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    margin-bottom: 15px;
 }
 
 .navigation > .links {
     list-style: none;
+    margin-right: 15px;
     
+}
+.navigation > .links .link a {
+    font-weight: 400;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .navigation > .links li > .link:hover{
     text-shadow: 2px 2px 4px #990000;
+    
 }
 
 header img {
- width: 40px;
+ width: 50%;
+ height: 60%;
  display: block;
  margin-left: auto;
  border-radius: 4px;
  box-shadow: 2px 2px 4px;
+  
 } 
 
 .navigation > .links li {
